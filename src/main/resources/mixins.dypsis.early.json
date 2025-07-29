@@ -1,0 +1,28 @@
+{
+  "package": "me.decce.dypsis.mixins.early",
+  "required": true,
+  "refmap": "mixins.dypsis.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "EntityRendererMixin",
+    "FontRendererAccessor",
+    "FramebufferMixin",
+    "MinecraftAccessor",
+    "MinecraftMixin",
+    "RenderGlobalAccessor",
+    "ScreenShotHelperMixin",
+    "WorldVertexBufferUploaderMixin",
+    "batching.BufferBuilderAccessor",
+    "batching.BufferBuilderMixin",
+    "batching.GuiIngameMixin",
+    "batching.RenderGlobalMixin",
+    "batching.TessellatorMixin",
+    "batching.TileEntityRendererDispatcherMixin",
+    "batching.vanilla.FontRendererMixin",
+    "batching.vanilla.GuiIngameForgeMixin",
+    "state_tracking.color.GlStateManagerMixin",
+    "state_tracking.matrix.GlStateManagerMixin"
+  ]
+}

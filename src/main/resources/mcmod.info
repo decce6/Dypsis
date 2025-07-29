@@ -1,0 +1,12 @@
+[{
+    "modid": "${modid}",
+    "name": "${modname}",
+    "description": "Targeted, effective optimizations for 1.12.2",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "logoFile": "assets/dypsis/dypsis.png",
+    "url": "",
+    "authorList": ["decce"],
+    "credits": "",
+    "dependencies": []
+}]
