@@ -20,7 +20,7 @@ public class GuiIngameForgeMixin {
         }
     }
 
-    @Inject(method = { "renderHealth", "renderArmor", "renderAir", "renderFood" }, at = @At(value = "INVOKE", target = "Lnet/minecraft/profiler/Profiler;endSection()V"))
+    @Inject(method = { "renderHealth", "renderArmor", "renderAir", "renderFood" }, at = @At(value = "INVOKE", target = "Lnet/minecraft/client/renderer/GlStateManager;disableBlend()V"))
     private void dypsis$renderOverlay$tail(CallbackInfo ci) {
         if (DypsisConfig.VANILLA.hudBatching) {
             BatchingManager.end();
