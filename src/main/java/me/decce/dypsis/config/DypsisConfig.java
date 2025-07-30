@@ -50,6 +50,10 @@ public class DypsisConfig {
         @Config.LangKey("dypsis.config.mods.theoneprobe")
         public final TheOneProbe THEONEPROBE = new TheOneProbe();
 
+        @Config.Name("Mantle")
+        @Config.LangKey("dypsis.config.mods.mantle")
+        public final Mantle MANTLE = new Mantle();
+
         public static class EnderIO {
             @Config.Name("Batched Conduit Rendering")
             @Config.Comment("Enable to render EnderIO conduits in batches, significantly reducing the number of GL state changes, draw calls and vertex pointer setups.\n\nMassively improves performance when you have a handful of EnderIO conduits in the world.")
@@ -60,6 +64,12 @@ public class DypsisConfig {
             @Config.Name("Remove Redundant GL Calls")
             @Config.Comment("Removes unneeded OpenGL calls to improve performance")
             public boolean removeRedundant = true;
+        }
+
+        public static class Mantle {
+            @Config.Name("HUD Batching")
+            @Config.Comment("Batched drawing for health bar")
+            public boolean hudBatching = true;
         }
     }
 

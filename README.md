@@ -17,4 +17,4 @@ Dypsis is an optimization mod with a focus on improving client-side rendering pe
 
 ### Advanced
 
-- **(WIP) Modern Rendering Pipeline**: Very experimental and immature replacement of the vertex array usage in Tessellator. Utilizes VAO and DSA.
+- **(WIP) Modern Rendering Pipeline**: Very experimental and immature replacement of the vertex array usage in Tessellator. Utilizes VAO and DSA to improve performance.

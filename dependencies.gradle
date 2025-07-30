@@ -43,4 +43,5 @@ dependencies {
     implementation ("maven.modrinth:endercore:0.5.78")
     implementation ("maven.modrinth:the-one-probe:1.12-1.4.28")
     implementation ("maven.modrinth:had-enough-items:4.28.0")
+    implementation ("maven.modrinth:mantle:1.3.3.55")
 }
