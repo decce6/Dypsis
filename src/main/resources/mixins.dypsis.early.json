@@ -11,6 +11,7 @@
     "FramebufferMixin",
     "MinecraftAccessor",
     "MinecraftMixin",
+    "OpenGlHelperMixin",
     "RenderGlobalAccessor",
     "ScreenShotHelperMixin",
     "WorldVertexBufferUploaderMixin",
