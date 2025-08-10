@@ -90,7 +90,7 @@ public class DypsisConfig {
                 "",
                 "The aggressive option provides similar levels of performance as OptiFine's Fast Render option, but has much better mod compatibility. You should not be using both at the same time."
         })
-        public FBOEnum fboOptimization = FBOEnum.CONSERVATIVE;
+        public FBOEnum fboOptimization = FBOEnum.NONE;
 
         @Config.Name("Smart Entity Outline Rendering")
         @Config.Comment("Skips entity outline (a.k.a. glowing effect) rendering when there is no entity visible with outline.")
